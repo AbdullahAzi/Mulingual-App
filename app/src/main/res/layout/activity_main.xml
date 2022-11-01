@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Language"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="643dp"
+        android:fontFamily="cursive"
+        android:text="Welcome To Mulingual!"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="-53dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="-48dp"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtext1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="-109dp"
+        android:drawableLeft="@drawable/ic_baseline_language_24"
+        android:text="What Language you want to learn?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:id="@+id/spinner1"
+        android:layout_width="208dp"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="-53dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="-111dp"
+        android:text="Why do you want to learn this language?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:id="@+id/spinner2"
+        android:layout_width="264dp"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="-53dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="-97dp"
+        android:text="One language is one person, two languages are two people."
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="-88dp"
+        android:text="Keep learning!"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
